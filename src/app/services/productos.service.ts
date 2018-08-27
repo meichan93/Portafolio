@@ -23,4 +23,9 @@ export class ProductosService {
       }, 1000);
     });
   }
+
+  getProducto( id: string ) {
+    return this.http.get(`https://angular-html-e1535.firebaseio.com/productos/${ id }.json`);
+    // para insertar una variable en un url, se deben poner--> `url` e insertar la variable dentro ${id} [Example]
+  }
 }
