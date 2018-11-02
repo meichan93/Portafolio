@@ -1,6 +1,6 @@
 # Portafolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0. This project use a Firebase database to load all the data :)
 
 ## Development server
 
